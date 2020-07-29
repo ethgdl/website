@@ -1,1 +1,1 @@
-# SRC [Website] (http://www.ethgdl.com)
+# SRC [Website](https://www.ethgdl.com)
