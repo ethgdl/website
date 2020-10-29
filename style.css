@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    background-color:#ffffff;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.main_container {
+}
+
+.navbar {
+    position: fixed;
+    background-color: rgb(242, 242, 242, 0.9);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    width: 100%;
+    z-index: 1;
+}
+
+#icon {
+    float: center;
+    max-width: 100%;
+    height: auto;
+    padding-top: 0.5em;
+    padding-left: 1em;
+}
+
+.ethgdl {
+    position: absolute;
+    max-width: 100%;
+    margin-top: -27px;
+    margin-left: 54px;
+}
+
+.ethgdl a {
+    font-family: "Bebas Neue";
+    font-size: calc(1em + 0.3vw);
+    text-decoration: none;
+}
+
+.ethgdl a:link {
+    color: black;
+}
+
+.ethgdl a:visited {
+    color: black;
+}
+
+.navmenu {
+    float: right;
+    padding-top: 0.1em;
+    padding-right: 18px;
+}
+
+.menu {
+    float: center;
+    display: inline;
+    padding: 9px;
+}
+
+.menu a {
+    font-family: "Bebas Neue";
+    font-size: calc(1em + 0.3vw);
+    text-decoration: none;
+}
+
+.menu a:link {
+    color: black;
+    transition: 0.9s;
+}
+
+.menu a:visited {
+    color: black;
+}
+
+.menu a:hover {
+    color: #0000d4;
+    transition: 0.3s;
+}
+
+#background {
+    max-width: 100%;
+    height: auto;
+}
+
+.about_container {
+    height: 720px;
+    padding: 9%;
+}
+
+.agave_container {
+    float: right;
+    margin-top: 9%;
+    width: 36%;
+    padding: 3%;
+}
+
+#agave {
+    width: 100%;
+    height: auto;
+}
+
+#nosotros {
+    position: relative;
+    width: 45%;
+    padding: 6%;
+    font-family: "Roboto";
+    font-size: calc(1em + 0.3vw);
+    color: #333333;
+}
+
+#contacto {
+    position: relative;
+    padding: 9%;
+    height: auto;
+    background-color: #e6e6e6;
+}
+
+#social {
+    position: relative;
+    width: 63%;
+    margin: auto;
+    text-align: center;
+}
+
+.social_button {
+    padding: 6%;
+    max-width: 6%;
+    height: auto;
+}
+
+.social a:hover {
+    color: #0000d4;
+    transition: 0.3s;
+}
+
+#copyright {
+    position: relative;
+    padding: 3%;
+    text-align: center;
+    font-family: "Roboto";
+    color: white;
+    font-size: calc(0.9em + 0.2vw);
+}
