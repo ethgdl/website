@@ -5,6 +5,6 @@ Código Fuente para el website [Ethereum Guadalajara](http://ethgdl.com/) (ETHGD
 ## ETHGDL
 
 Ethereum Guadalajara [ETHGDL](http://ethgdl.com) es una comunidad
-que nace en 2019 en Guadalajara, Jalisco, México.
+que nace en 2018 en Guadalajara, Jalisco, México.
 Con el fin de reunir a personas interesadas en conocer,
-aprender y colaborar sobre la red de Blockchain [Ethereum](https://ethereum.org/).
+aprender y colaborar sobre la red de Blockchain de [Ethereum](https://ethereum.org/).
