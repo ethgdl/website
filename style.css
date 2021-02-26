@@ -7,9 +7,6 @@ html {
 	scroll-behavior: smooth;
 }
 
-.main_container {
-}
-
 .navbar {
     position: fixed;
     background-color: rgb(242, 242, 242, 0.9);
@@ -29,13 +26,13 @@ html {
 .ethgdl {
     position: absolute;
     max-width: 100%;
-    margin-top: -27px;
+    margin-top: -9vw;
     margin-left: 54px;
 }
 
 .ethgdl a {
     font-family: "Bebas Neue";
-    font-size: calc(1em + 0.3vw);
+    font-size: 3.6vw;
     text-decoration: none;
 }
 
@@ -49,19 +46,19 @@ html {
 
 .navmenu {
     float: right;
-    padding-top: 0.1em;
-    padding-right: 18px;
+    padding-top: -9vw;
+    padding-right: 1.8vw;
 }
 
 .menu {
     float: center;
     display: inline;
-    padding: 9px;
+    padding: 1.8vw;
 }
 
 .menu a {
     font-family: "Bebas Neue";
-    font-size: calc(1em + 0.3vw);
+    font-size: 3.6vw;
     text-decoration: none;
 }
 
@@ -79,35 +76,39 @@ html {
     transition: 0.3s;
 }
 
-#background {
+#background_smartphone {
+    margin-top: 9vw;
     max-width: 100%;
     height: auto;
 }
 
-.about_container {
-    height: 720px;
-    padding: 9%;
+#background {
+    display: none;
 }
 
-.agave_container {
-    float: right;
-    margin-top: 9%;
-    width: 36%;
-    padding: 3%;
+h1 {
+    text-align: center;
 }
 
-#agave {
-    width: 100%;
-    height: auto;
+#about {
+    margin-top: -4.5vw;
+    padding: 18vw;
+    font-family: Roboto;
+    font-size: 3vw;
 }
 
 #nosotros {
     position: relative;
-    width: 45%;
-    padding: 6%;
+    margin-top: 15vw;
     font-family: "Roboto";
-    font-size: calc(1em + 0.3vw);
+    font-size: 5vw;
     color: #333333;
+}
+
+#agave {
+    display: block;
+    margin: auto;
+    width: 72%;
 }
 
 #contacto {
@@ -119,27 +120,182 @@ html {
 
 #social {
     position: relative;
-    width: 63%;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
 
 .social_button {
+    margin-top: 45vw;
     padding: 6%;
     max-width: 6%;
     height: auto;
 }
 
-.social a:hover {
-    color: #0000d4;
-    transition: 0.3s;
-}
-
 #copyright {
+    height: 180px;
     position: relative;
     padding: 3%;
     text-align: center;
     font-family: "Roboto";
     color: white;
-    font-size: calc(0.9em + 0.2vw);
+    font-size: 2.7vw;
+}
+
+@media only screen and (orientation: landscape) {
+    #background {
+        margin-top: 3vw;
+        max-width: 100%;
+        height: auto;
+        display: initial;
+    }
+    
+    #background_smartphone {
+        display: none;
+    }
+
+    .ethgdl {
+        position: absolute;
+        max-width: 100%;
+        margin-top: -4.5vw;
+        margin-left: 54px;
+    }
+    
+    .ethgdl a {
+        font-family: "Bebas Neue";
+        font-size: 2vw;
+        text-decoration: none;
+    }
+
+    .menu a {
+        font-family: "Bebas Neue";
+        font-size: 2vw;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        position: fixed;
+        background-color: rgb(242, 242, 242, 0.9);
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+        width: 100%;
+        z-index: 1;
+    }
+    
+    #icon {
+        float: center;
+        max-width: 100%;
+        height: auto;
+        padding-top: 0.5em;
+        padding-left: 1em;
+    }
+    
+    .ethgdl {
+        position: absolute;
+        max-width: 100%;
+        margin-top: -27px;
+        margin-left: 54px;
+    }
+    
+    .ethgdl a {
+        font-family: "Bebas Neue";
+        font-size: calc(1em + 0.3vw);
+        text-decoration: none;
+    }
+    
+    .ethgdl a:link {
+        color: black;
+    }
+    
+    .ethgdl a:visited {
+        color: black;
+    }
+    
+    .navmenu {
+        float: right;
+        padding-top: 0.1em;
+        padding-right: 18px;
+    }
+    
+    .menu {
+        float: center;
+        display: inline;
+        padding: 9px;
+    }
+    
+    .menu a {
+        font-family: "Bebas Neue";
+        font-size: calc(1em + 0.3vw);
+        text-decoration: none;
+    }
+    
+    .menu a:link {
+        color: black;
+        transition: 0.9s;
+    }
+    
+    .menu a:visited {
+        color: black;
+    }
+    
+    .menu a:hover {
+        color: #0000d4;
+        transition: 0.3s;
+    }
+
+    #background {
+        margin-top: 1.8vw;
+        max-width: 100%;
+        height: auto;
+        display: initial;
+    }
+
+    #background_smartphone {
+        display: none;
+    }
+
+    #about {
+        height: 54vw;
+        font-family: "Roboto";
+        font-size: 1.8vw;
+        padding: 5.4vw;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+
+    #nosotros {
+        width: 50%;
+        margin-top: 9vw;
+        font-family: "Roboto";
+        font-size: 1.8vw;
+        color: #333333;
+    }
+
+    .agave_container {
+        width: 45%;
+        margin-top: -27vw;
+        margin-left: 54%;
+    }
+    
+    #contacto {
+        position: relative;
+        padding: 9vw;
+        background-color: #cfcfcf;
+    }
+
+    .social_button {
+        margin-top: 18vw
+    }
+    
+    #copyright {
+        position: relative;
+        padding: 3%;
+        text-align: center;
+        font-family: "Roboto";
+        color: white;
+        font-size: 1.8vw;
+    }
 }
