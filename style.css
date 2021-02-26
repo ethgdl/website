@@ -180,6 +180,59 @@ h1 {
     }
 }
 
+@media only screen and (min-width: 590px){
+    .ethgdl {
+        position: absolute;
+        max-width: 100%;
+        margin-top: -5vw;
+        margin-left: 54px;
+    }
+    
+    .ethgdl a {
+        font-family: "BebasNeue";
+        font-size: 2.7vw;
+        text-decoration: none;
+    }
+
+    .menu a {
+        font-family: "BebasNeue";
+        font-size: 2.7vw;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #background {
+        margin-top: 1.8vw;
+        max-width: 100%;
+        height: auto;
+        display: initial;
+    }
+
+    #background_smartphone {
+        display: none;
+    }
+
+    .ethgdl {
+        position: absolute;
+        max-width: 100%;
+        margin-top: -3.6vw;
+        margin-left: 54px;
+    }
+    
+    .ethgdl a {
+        font-family: "BebasNeue";
+        font-size: 2.7vw;
+        text-decoration: none;
+    }
+
+    .menu a {
+        font-family: "BebasNeue";
+        font-size: 2.7vw;
+        text-decoration: none;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .navbar {
         position: fixed;
