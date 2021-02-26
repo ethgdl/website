@@ -7,6 +7,11 @@ html {
 	scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: BebasNeue;
+    src: url(font/BebasNeue.ttf);
+}
+
 .navbar {
     position: fixed;
     background-color: rgb(242, 242, 242, 0.9);
@@ -31,7 +36,7 @@ html {
 }
 
 .ethgdl a {
-    font-family: "Bebas Neue";
+    font-family: "BebasNeue";
     font-size: 3.6vw;
     text-decoration: none;
 }
@@ -57,7 +62,7 @@ html {
 }
 
 .menu a {
-    font-family: "Bebas Neue";
+    font-family: "BebasNeue";
     font-size: 3.6vw;
     text-decoration: none;
 }
@@ -162,13 +167,13 @@ h1 {
     }
     
     .ethgdl a {
-        font-family: "Bebas Neue";
+        font-family: "BebasNeue";
         font-size: 2vw;
         text-decoration: none;
     }
 
     .menu a {
-        font-family: "Bebas Neue";
+        font-family: "BebasNeue";
         font-size: 2vw;
         text-decoration: none;
     }
@@ -199,7 +204,7 @@ h1 {
     }
     
     .ethgdl a {
-        font-family: "Bebas Neue";
+        font-family: "BebasNeue";
         font-size: calc(1em + 0.3vw);
         text-decoration: none;
     }
@@ -225,7 +230,7 @@ h1 {
     }
     
     .menu a {
-        font-family: "Bebas Neue";
+        font-family: "BebasNeue";
         font-size: calc(1em + 0.3vw);
         text-decoration: none;
     }
